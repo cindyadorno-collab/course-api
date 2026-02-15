@@ -28,23 +28,23 @@
     {
       "id": 1,
       "title": "86FSS Library",
-      "description": "7.75 deck, good for beginners.",
-      "category": "sports",
-      "status": "available"
+      "description": "Base library providing study spaces, research materials, and digital resources for Air Force personnel and families.",
+      "category": "education",
+      "status": "open"
     },
     {
       "id": 2,
       "title": "Air Force Library",
-      "description": "65W fast charger for laptop and phone.",
-      "category": "electronics",
-      "status": "available"
+      "description": "Military library offereing books, academic resources, and computer access for service members.",
+      "category": "education",
+      "status": "open"
     },
     {
       "id": 3,
       "title": "Military Library",
-      "description": "LED desk lamp with 3 brightness levels.",
-      "category": "home",
-      "status": "checked_out"
+      "description": "Community library supporting military members with learning materials and quiet atudy areas.",
+      "category": "education",
+      "status": "maintenance"
     }
   ],
   "users": [
@@ -57,8 +57,8 @@
     },
     {
       "id": 2,
-      "name": "Bad Bunny",
-      "email": "Bad.Bunny@example.com",
+      "name": "Cindy Adorno",
+      "email": "cindy.adorno@example.com",
       "role": "student",
       "itemId": 1
     }
