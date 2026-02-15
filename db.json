@@ -1,0 +1,66 @@
+{
+  "collection": {
+    "name": "Student Prototype API",
+    "description": "Prototype API for Web Services and APIs course using My JSON Server.",
+    "endpoints": {
+      "/items": "List all items",
+      "/users": "List all users",
+      "/items/:id/users": "Nested route: users related to an item (users where itemId = :id)"
+    },
+    "schemas": {
+      "items": {
+        "id": "number",
+        "title": "string",
+        "description": "string",
+        "category": "string",
+        "status": "string"
+      },
+      "users": {
+        "id": "number",
+        "name": "string",
+        "email": "string",
+        "role": "string",
+        "itemId": "number (foreign key to items.id)"
+      }
+    }
+  },
+  "items": [
+    {
+      "id": 1,
+      "title": "Campus Skateboard",
+      "description": "7.75 deck, good for beginners.",
+      "category": "sports",
+      "status": "available"
+    },
+    {
+      "id": 2,
+      "title": "USB-C Charger",
+      "description": "65W fast charger for laptop and phone.",
+      "category": "electronics",
+      "status": "available"
+    },
+    {
+      "id": 3,
+      "title": "Study Lamp",
+      "description": "LED desk lamp with 3 brightness levels.",
+      "category": "home",
+      "status": "checked_out"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Ava Martinez",
+      "email": "ava.martinez@example.com",
+      "role": "student",
+      "itemId": 3
+    },
+    {
+      "id": 2,
+      "name": "Noah Kim",
+      "email": "noah.kim@example.com",
+      "role": "student",
+      "itemId": 1
+    }
+  ]
+}
